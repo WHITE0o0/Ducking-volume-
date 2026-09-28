@@ -1,0 +1,6 @@
+{
+  "name": "ducky",
+  "description": "Real-time ambient microphone monitoring and automatic media volume ducking controller with background foreground service and customizable response curves.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

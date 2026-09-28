@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ducky</string>
+    <string name="app_subtitle">Real-Time Ambient Sound &amp; Media Volume Controller</string>
+    <string name="master_monitoring_title">Master Monitoring</string>
+    <string name="master_monitoring_active">Active • Listening for ambient audio</string>
+    <string name="master_monitoring_paused">Standby • Tap to start monitoring</string>
+    <string name="live_db_meter_title">Live Ambient Level</string>
+    <string name="status_idle">Standby</string>
+    <string name="status_monitoring">Monitoring</string>
+    <string name="status_detecting">Threshold Exceeded (Delaying)</string>
+    <string name="status_ducked">Volume Ducked</string>
+    <string name="status_recovering">Recovering Volume</string>
+    <string name="sensitivity_label">Sensitivity Threshold</string>
+    <string name="sensitivity_desc">Triggers ducking when ambient sound exceeds this level</string>
+    <string name="volume_reduction_label">Volume Reduction</string>
+    <string name="volume_reduction_desc">How much to lower media volume when triggered</string>
+    <string name="response_delay_label">Response Delay</string>
+    <string name="response_delay_desc">How long sound must stay above threshold before ducking</string>
+    <string name="recovery_time_label">Recovery Time</string>
+    <string name="recovery_time_desc">How long to wait after sound stops before restoring volume</string>
+    <string name="presets_title">Quick Acoustic Presets</string>
+    <string name="preset_office">Quiet Office</string>
+    <string name="preset_conversation">Conversation</string>
+    <string name="preset_commute">Transit / Gym</string>
+    <string name="reset_defaults">Reset Defaults</string>
+    <string name="permission_required_title">Microphone Permission Required</string>
+    <string name="permission_required_body">Audio Ducking Controller needs microphone access to measure ambient decibel levels in real time and automatically lower your media volume when someone speaks or external sound occurs.</string>
+    <string name="grant_permission_button">Grant Microphone Access</string>
+    <string name="test_tone_title">Media Stream &amp; Diagnostic Controls</string>
+    <string name="notification_channel_name">Audio Ducking Monitor</string>
+    <string name="notification_channel_desc">Shows live ambient decibel reading and ducking status while monitoring in the background</string>
+    <string name="notification_action_stop">Stop Monitoring</string>
+</resources>
